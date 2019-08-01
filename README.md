@@ -1,4 +1,12 @@
-# HelloPhoenix
+# Sample Phoenix Server
+
+> is here to try out phoenix style elixir
+
+### Currently
+
+* provides a chatroom `Scuttlebutt` using channels without persistence
+
+---
 
 To start your Phoenix server:
 
@@ -18,3 +26,5 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+---
