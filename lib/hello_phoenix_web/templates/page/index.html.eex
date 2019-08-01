@@ -1,7 +1,7 @@
 <section class="phx-sidekick">
   <div>
-    <b><%= gettext "Hello %{name}!", name: "Phoenix" %></b>,
     <span>so what's new</span>
+    <%= gettext "%{name}!", name: "🐦" %>
   </div>
 </section>
 

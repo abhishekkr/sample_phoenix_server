@@ -13,3 +13,6 @@ import "phoenix_html"
 
 // Import local files
 import socket from "./socket"
+import Scuttlebutt from "./scuttlebutt"
+
+Scuttlebutt.init(socket)
