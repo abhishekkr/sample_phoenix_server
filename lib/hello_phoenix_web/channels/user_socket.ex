@@ -1,8 +1,7 @@
 defmodule HelloPhoenixWeb.UserSocket do
   use Phoenix.Socket
 
-  ## Channels
-  # channel "room:*", HelloPhoenixWeb.RoomChannel
+  channel "scuttlebutt:*", HelloPhoenixWeb.ScuttlebuttChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
