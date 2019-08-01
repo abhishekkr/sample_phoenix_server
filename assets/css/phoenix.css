@@ -132,3 +132,50 @@ header nav a {
     margin: 2rem 1rem;
   }
 }
+
+
+/* Custom styling for Suttlebutt
+ */
+#chat-box {
+  border: 1px #000 solid;
+  padding: 0 0 0 5px;
+  min-height: 157px;
+  max-height: 225px;
+  overflow: scroll;
+  background-color: black;
+  color: light-green;
+}
+
+#chat-form {
+  width:250px;
+}
+
+#chat-form input[type="text"] {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+}
+
+#chat-form textarea {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+}
+
+.phx-sidekick {
+  text-align: center;
+  border-bottom: 1px solid #e3e3e3;
+  background: #eee;
+  border-radius: 6px;
+  padding: 10px 10px 10px;
+  margin-bottom: 25px;
+  font-weight: 200;
+  font-size: 120%;
+  max-height: 150px;
+}
