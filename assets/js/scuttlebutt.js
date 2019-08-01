@@ -10,9 +10,9 @@ let Scuttlebutt = {
         e.preventDefault()
 
         let msg_from = document.getElementById('user-name').value
-        let msg_text = document.getElementById('user-msg').value
+        let msg = document.getElementById('user-msg').value
 
-        channel.push('shout', {from: msg_from, msg: msg_text})
+        channel.push('shout', {from: msg_from, msg: msg})
 
         document.getElementById('user-msg').value = ''
       })

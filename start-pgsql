@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+docker run --net host \
+  --name hello_phoenix \
+  -e POSTGRES_DB=hello_phoenix_dev \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=postgres \
+  -it postgres:10.7-alpine

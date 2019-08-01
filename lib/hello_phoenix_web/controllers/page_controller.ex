@@ -1,7 +1,10 @@
 defmodule HelloPhoenixWeb.PageController do
   use HelloPhoenixWeb, :controller
 
+  alias HelloPhoenix.Chats
+
   def index(conn, _params) do
-    render(conn, "index.html")
+    messages = Chats.list_messages()
+    render conn, "index.html", messages: messages
   end
 end
